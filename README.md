@@ -44,7 +44,7 @@ for i in $(seq 1 $NUM_FILES); do
   dd if=/dev/urandom of="$DIR/file_$i.dat" bs=$FILE_SIZE count=1 status=none
   echo "Created file_$i.dat"
 done
-```:w
+```
 
 
 Run the script to generate 1000 files with 1024 bytes each.
